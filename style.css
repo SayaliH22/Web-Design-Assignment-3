@@ -1,23 +1,31 @@
 body {
-  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
-}
+    font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+  }
+  
+  .socialmediaicons ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .socialmediaicons ul li {
+    display: inline-block;
+    margin-left: 5px;
+  }
+  
+  .socialmediaicons ul li img {
+    width: 30px;
+    border-radius: 50%;
+  }
+  
+  .socialmediaicons{
+      text-align: center;
+  }
 
-.socialmediaicons ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
+  .dropDownTextArea{
+    display: none;
+  }
 
-.socialmediaicons ul li {
-  display: inline-block;
-  margin-left: 5px;
-}
-
-.socialmediaicons ul li img {
-  width: 30px;
-  border-radius: 50%;
-}
-
-.socialmediaicons{
-	text-align: center;
-}
+  #submit-button{
+    margin-left: 12rem;
+  }
