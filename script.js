@@ -100,6 +100,8 @@ document.getElementById("myTable").addEventListener("click", function(event) {
                 if(counter === 0 || submitButtonCounter === 0) {
                     document.querySelectorAll("tr")[0].querySelectorAll("th")[8].classList.add("columnHide");
                     document.querySelectorAll("tr")[0].querySelectorAll("th")[9].classList.add("columnHide");
+                    document.getElementById("submit-button").style.backgroundColor ="gray";
+                    document.getElementById("submit-button").style.pointerEvents ="none";
                 }
                 alert("Record of Student Deleted Successfully");
             });
